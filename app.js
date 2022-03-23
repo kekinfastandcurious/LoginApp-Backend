@@ -15,7 +15,7 @@ app.use(express.json(), (req, res, next) => {
 
 
 const port  = process.env.PORT || 8080;
-const secretKey = process.env.SECRET_KEY;
+const secretKey = process.env.SECRET_KEY || 'BATMAN';
 
 app.post('/login', async (req, res) => {
     const {email, password} = req.body;
