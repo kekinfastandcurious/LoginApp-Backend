@@ -15,3 +15,5 @@ Login APIs develop in express+NodeJS for POC-2
     npm i
     npm start
     ```
+    
+ This will start up the api server on port 8080 on your system
